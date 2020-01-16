@@ -22,5 +22,31 @@ public class Ordenador {
         this.procesador = procesador;
         this.color = color;
     }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
+
+    public int getProcesador() {
+        return procesador;
+    }
+
+    public void setProcesador(int procesador) {
+        this.procesador = procesador;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+    
+    
     
 }
