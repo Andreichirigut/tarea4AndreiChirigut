@@ -46,6 +46,11 @@ public class Ordenador {
     public void setColor(String color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "Ordenador{" + "ram=" + ram + ", procesador=" + procesador + ", color=" + color + '}';
+    }
     
     
     
